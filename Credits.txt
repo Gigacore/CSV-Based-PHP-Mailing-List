@@ -1,0 +1,2 @@
+jQuery Form Plugin 	- jquery.malsup.com/form/
+jQuery Validation	- bassistance.de 

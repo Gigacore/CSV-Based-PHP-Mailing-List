@@ -1,0 +1,113 @@
+/*	Style Sheet for CSV Based PHP Mailing List 
+
+Author: 	Santhosh
+Website: 	www.noob2geek.com
+GitHub:		github.com/Gigacore
+
+*/
+
+body {
+	background: #f6f6f6 url(background.jpg) repeat;
+	color: #333;
+}
+
+header {
+	font-size: 34px;
+	font-family: 'Share', cursive;
+	color: #333;
+	width: 470px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#signup {
+	height: 150px;
+	width: 600px;
+	margin: 0 auto;
+	background: #00B2B2;
+	border: solid 6px #eee;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#signup-title {
+	font-size: 28px;
+	color: #fff;
+	margin: 5px 0 0 30px;
+	font-family: 'Average Sans', sans-serif;
+}
+
+#subscribe {
+	width: 540px;
+	margin: 0 auto;
+}
+
+input {
+	background: #fff;
+	height: 39px;
+	width: 165px;
+	border: solid 3px #eee;
+	color: #000;
+	padding: 0 10px 0 10px;
+	margin: 20px 5px 0 0;
+	font-size: 16px;
+}
+
+#subscribe input.submit { 
+	background: #feffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #feffff 0%, #d2ebf9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(100%,#d2ebf9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #feffff 0%,#d2ebf9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #feffff 0%,#d2ebf9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #feffff 0%,#d2ebf9 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #feffff 0%,#d2ebf9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); /* IE6-9 */
+	margin: 20px 35px 0 2px;
+	height: 45px;
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+}
+
+#subscribe input.submit:hover {
+	background: #d2ebf9; /* Old browsers */
+	background: -moz-linear-gradient(top, #d2ebf9 0%, #feffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2ebf9), color-stop(100%,#feffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d2ebf9 0%,#feffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d2ebf9 0%,#feffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d2ebf9 0%,#feffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #d2ebf9 0%,#feffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ebf9', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+}
+
+#subscribe label {width: 250px;}
+#subscribe label.error { 
+	margin-left: 150px; 
+}
+
+form.cmxform label.error, label.error {
+	color: #FF9673;
+	font-family: 'Average Sans', sans-serif;
+	font-style: none;
+	font-size: 18px;
+}
+
+.message {
+	font-size: 24px;
+	color: #fff;
+	margin: 30px 0 0 30px;
+	font-family: 'Average Sans', sans-serif;
+}
+
+	
