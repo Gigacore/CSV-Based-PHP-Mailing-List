@@ -37,3 +37,7 @@ Note that `#subscribe` is the id attribute of your form that you are going to us
 CHMOD `mail` directory to `755` and `.csv` file to `642`.
 
 642 ensures you are only letting people to write the csv file and deny read.
+
+##License
+
+CSV Based PHP Mailing List is licensed under MIT.
