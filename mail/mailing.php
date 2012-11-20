@@ -1,4 +1,8 @@
 <?php 
+/* CSV Based PHP Mailing List 
+Author: Santhosh
+URL: 	github.com/Gigacore 
+*/
 $name = $_POST["name"];
 $email = $_POST["email"];
 $mailinglist = array("$name, $email",);
