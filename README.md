@@ -7,7 +7,7 @@ See it in action: http://design.themebin.com/csv-mailing-list/
 
 ##Introduction
 
-This script stores names and email address of subscribers in a simple `.csv` file in the `mail` directory that is secured by an `.htaccess` file. So only you can access it via FTP or SSH.
+This script stores names and email address of subscribers in a simple `.csv` file in the `mail` directory that is secured by an `.htaccess` file. So only you can access it via FTP or SSH. Future verison may include admin page to access the file via web browser.
 
 
 
