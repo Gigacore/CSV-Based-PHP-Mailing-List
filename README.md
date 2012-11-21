@@ -34,7 +34,7 @@ Note that `#subscribe` is the id attribute of your form that you are going to us
 
 ####File Permissions
 
-CHMOD `mail` directory to `755` and `.csv` file to `642`.
+CHMOD `mail` directory to `755` and `.csv` file to `644`.
 
 642 ensures you are only letting people to write the csv file and deny read.
 
