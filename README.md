@@ -36,7 +36,7 @@ Note that `#subscribe` is the id attribute of your form that you are going to us
 
 CHMOD `mail` directory to `755` and `.csv` file to `644`.
 
-642 ensures you are only letting people to write the csv file and deny read.
+In case 644 doesn't work, make sure you CHOWN the mail directory and the list.csv file to proper user and group on your server. If that doesn't work either, you can just CHMOD the csv file to 642 that ensures you are only letting people to write the csv file and deny read.
 
 ##License
 
