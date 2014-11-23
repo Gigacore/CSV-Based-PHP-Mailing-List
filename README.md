@@ -3,8 +3,6 @@ CSV Based PHP Mailing List
 
 A simple PHP Mailing List that stores the name and email address in a CSV file and hence requires no additional database. Comes with form validation and AJAX interface.
 
-See it in action: http://design.themebin.com/csv-mailing-list/
-
 ##Introduction
 
 This script stores names and email address of subscribers in a simple `.csv` file in the `mail` directory that is secured by an `.htaccess` file. So only you can access it via FTP or SSH. Future verison may include admin page to access the file via web browser.
