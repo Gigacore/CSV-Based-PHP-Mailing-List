@@ -3,21 +3,21 @@ CSV Based PHP Mailing List
 
 A simple PHP Mailing List that stores the name and email address in a CSV file and hence requires no additional database. Comes with form validation and AJAX interface.
 
-##Introduction
+## Introduction
 
 This script stores names and email address of subscribers in a simple `.csv` file in the `mail` directory that is secured by an `.htaccess` file. So only you can access it via FTP or SSH. Future verison may include admin page to access the file via web browser.
 
 
 
-##Usage
+## Usage
 
-####Begin by adding latest jQuery snippet in header.
+#### Begin by adding latest jQuery snippet in header.
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-####Link the `query.plugins.js` file that contains validation libraries.
+#### Link the `query.plugins.js` file that contains validation libraries.
     <script src="query.plugins.js" type="text/javascript"></script>
 
-####And call the required functions to validate and display message.
+#### And call the required functions to validate and display message.
 
      $(document).ready(function() { 
   	    $('.message').hide();
@@ -30,12 +30,12 @@ This script stores names and email address of subscribers in a simple `.csv` fil
 
 Note that `#subscribe` is the id attribute of your form that you are going to use.
 
-####File Permissions
+#### File Permissions
 
 CHMOD `mail` directory to `755` and `.csv` file to `644`.
 
 In case 644 doesn't work, make sure you CHOWN the mail directory and the list.csv file to proper user and group on your server. If that doesn't work either, you can just CHMOD the csv file to 642 that ensures you are only letting people to write the csv file and deny read.
 
-##License
+## License
 
 CSV Based PHP Mailing List is licensed under MIT.
